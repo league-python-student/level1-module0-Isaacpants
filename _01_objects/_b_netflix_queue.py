@@ -44,10 +44,34 @@ if __name__ == '__main__':
     # Use Movie and NetflixQueue classes above to complete the following changes:
 
     # 1. Instantiate some Movie objects (at least 5).
+    endgame = Movie('Endgame',5)
+    ragnarok = Movie('Ragnarok',4)
+    infinityWar = Movie('Infinity War',3)
+    ageOfUltron = Movie('Age of Ultron', 2)
+    theDarkWorld = Movie('The Dark World',1)
+
     # 2. Use the Movie class to get the ticket price of one of your movies.
+    Movie.get_ticket_price(endgame)
     # 3. Instantiate a NetflixQueue.
+    nq = NetflixQueue()
+
     # 4. Add your movies to the Netflix queue.
+    nq.add_movie(endgame)
+    nq.add_movie(ragnarok)
+    nq.add_movie(infinityWar)
+    nq.add_movie(ageOfUltron)
+    nq.add_movie(theDarkWorld)
     # 5. Print all the movies in your queue.
+    for Movie in nq.movies:
+        print(Movie.to_string())
     # 6. Use your NetflixQueue object to finish the sentence "the best movie is...."
+
+    print('the best movie is... ' + nq.get_best_movie().to_string())
     # 7. Use your NetflixQueue to finish the sentence "the second best movie is...."
+    print('the second best movie is... ' + nq.get_movie(1).to_string())
+
+
+
+
+
 
