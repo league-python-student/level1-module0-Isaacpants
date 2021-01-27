@@ -1,11 +1,18 @@
 # Given Strings s1 and s2, return the longer String
 def find_longer_string(s1, s2):
-    pass
+    s1_length = len(s1)
+    s2_length = len(s2)
+    if s1_length > s2_length:
+        return s1
+    return s2
 
 
 # If String s contains the word "underscores", change all of the spaces to underscores
 def format_spaces(s1):
-    pass
+    s2 = s1.replace('_', ' ')
+    return s2
+
+
 
 
 # Return the name of the person whose LAST name would appear first if they were
@@ -17,17 +24,22 @@ def format_spaces(s1):
 # "abc" < "abd"   # True
 # "abc" < "abD"   # False
 def line_leader(s1, s2, s3):
-    pass
 
+   pass
 
 # Return the sum of all numerical digits in the String
 def numeral_sum(s):
-    pass
+    s_list = list(s)
+    for element in s_list:
+        if(i)
 
 
 # Return the number of times String substring appears in String s
-def substring_count(s):
-    pass
+def substring_count(s, substring):
+    s1 = s.count(substring)
+
+    return str(s1)
+
 
 
 # Return the number of words in Strings that end with String substring
