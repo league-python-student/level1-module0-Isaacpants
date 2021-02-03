@@ -11,7 +11,7 @@ class MyTestCase(unittest.TestCase):
 
     def test_format_spaces(self):
         self.assertEqual("This String should not change", _b_string_methods.format_spaces("This String should not change"))
-        self.assertEqual("This_String_should_have_its_spaces_filled_with_underscores", _b_string_methods.formatSpaces("This String should have its spaces filled with underscores"))
+        self.assertEqual("This_String_should_have_its_spaces_filled_with_underscores", _b_string_methods.format_spaces("This String should have its spaces filled with underscores"))
         self.assertEqual("x_x_x_x_x_x_x_underscores_x_x_x_x_x_x", _b_string_methods.format_spaces("x x x x x x x underscores x x x x x x"))
 
     def test_line_leader(self):

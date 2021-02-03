@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="96ea03be-a7ad-4329-8dde-30bf8c1bed47" name="Default Changelist" comment="calculator finished, guest book ip">
+      <change beforePath="$PROJECT_DIR$/_03_strings/_b_string_methods.py" beforeDir="false" afterPath="$PROJECT_DIR$/_03_strings/_b_string_methods.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="root &lt;root@root.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1nJDxBNaPKP1m2U7flomUOdKVTh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="Python._b_string_methods_test">
+    <configuration name="_a_into_to_lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_02_lists" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_02_lists/_a_into_to_lists.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="_b_guest_book" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_02_lists" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_02_lists/_b_guest_book.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="_b_string_methods_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_03_strings" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_03_strings/_b_string_methods_test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="_d_calculator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/bin/python3.5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/_01_objects" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_01_objects/_d_calculator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python._b_string_methods_test" />
+        <item itemvalue="Python._b_guest_book" />
+        <item itemvalue="Python._d_calculator" />
+        <item itemvalue="Python._a_into_to_lists" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="96ea03be-a7ad-4329-8dde-30bf8c1bed47" name="Default Changelist" comment="" />
+      <created>1611099543604</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611099543604</updated>
+    </task>
+    <task id="LOCAL-00001" summary="calculator finished, guest book ip">
+      <created>1611104676892</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611104676892</updated>
+    </task>
+    <task id="LOCAL-00002" summary="guest book, string methodds (ip)">
+      <created>1611709451199</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611709451199</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="calculator" />
+    <MESSAGE value="calculator finished, guest book ip" />
+    <MESSAGE value="guest book, string methodds (ip)" />
+    <option name="LAST_COMMIT_MESSAGE" value="guest book, string methodds (ip)" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1166" height="87" key="GridCell.Tab.0.bottom" timestamp="1612311428185">
+      <screen x="0" y="31" width="1280" height="993" />
+    </state>
+    <state width="1166" height="87" key="GridCell.Tab.0.bottom/0.31.1280.993@0.31.1280.993" timestamp="1612311428185" />
+    <state width="1166" height="87" key="GridCell.Tab.0.center" timestamp="1612311428184">
+      <screen x="0" y="31" width="1280" height="993" />
+    </state>
+    <state width="1166" height="87" key="GridCell.Tab.0.center/0.31.1280.993@0.31.1280.993" timestamp="1612311428184" />
+    <state width="1166" height="87" key="GridCell.Tab.0.left" timestamp="1612311428184">
+      <screen x="0" y="31" width="1280" height="993" />
+    </state>
+    <state width="1166" height="87" key="GridCell.Tab.0.left/0.31.1280.993@0.31.1280.993" timestamp="1612311428184" />
+    <state width="1166" height="87" key="GridCell.Tab.0.right" timestamp="1612311428185">
+      <screen x="0" y="31" width="1280" height="993" />
+    </state>
+    <state width="1166" height="87" key="GridCell.Tab.0.right/0.31.1280.993@0.31.1280.993" timestamp="1612311428185" />
+    <state x="85" y="31" width="1022" height="732" key="SettingsEditor" timestamp="1611100536823">
+      <screen x="0" y="31" width="1280" height="993" />
+    </state>
+    <state x="85" y="31" width="1022" height="732" key="SettingsEditor/0.31.1280.993@0.31.1280.993" timestamp="1611100536823" />
+    <state x="191" y="101" width="806" height="530" key="Vcs.Push.Dialog.v2" timestamp="1611104684555">
+      <screen x="0" y="31" width="1280" height="993" />
+    </state>
+    <state x="191" y="101" width="806" height="530" key="Vcs.Push.Dialog.v2/0.31.1280.993@0.31.1280.993" timestamp="1611104684555" />
+    <state x="386" y="281" width="420" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611104462469">
+      <screen x="0" y="31" width="1280" height="993" />
+    </state>
+    <state x="386" y="281" width="420" height="170" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.31.1280.993@0.31.1280.993" timestamp="1611104462469" />
+  </component>
+</project>
