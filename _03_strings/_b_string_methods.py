@@ -26,9 +26,15 @@ def format_spaces(s):
 # "abc" < "abd"   # True
 # "abc" < "abD"   # False
 def line_leader(s1, s2, s3):
-    s1_lower = s1.lower()
-    s2_lower = s2.lower()
-    s3_lower = s3.lower()
+    s1_stripped = s1.strip()
+    s2_stripped = s2.strip()
+    s3_stripped = s3.strip()
+    s1_lowers = s1.lower()
+    s2_lowers = s2.lower()
+    s3_lowers = s3.lower()
+    s1_lower = s1_lowers.strip()
+    s2_lower = s2_lowers.strip()
+    s3_lower = s3_lowers.strip()
     s1list = list(s1_lower)
     s2list = list(s2_lower)
     s3list = list(s3_lower)
@@ -56,12 +62,12 @@ def line_leader(s1, s2, s3):
     s3_last = s3_lower[space_num3+1:len(s3_lower)]
 
     if (s1_last<s2_last) and (s1_last<s3_last):
-        return s1
+        return s1_stripped
     elif(s2_last<s1_last) and (s2_last<s3_last):
-        return s2
+        return s2_stripped
     elif(s3_last<s1_last) and (s3_last<s2_last):
-        print('got to s3')
-        return s3
+
+        return s3_stripped
 
     return first
 
@@ -69,12 +75,15 @@ def line_leader(s1, s2, s3):
 
 # Return the sum of all numerical digits in the String
 def numeral_sum(s):
-    new_str = ""
     s_list = list(s)
+    num = 0
     for element in s_list:
-        if(s_list[element].isdigit()):
-            new_str+=s_list[element]
-    return new_str
+        if element.isdigit():
+            num+=int(element)
+    return num
+
+
+
 
 
 # Return the number of times String substring appears in String s
