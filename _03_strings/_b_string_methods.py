@@ -89,22 +89,31 @@ def numeral_sum(s):
 # Return the number of times String substring appears in String s
 def substring_count(s, substring):
     s1 = s.count(substring)
-
-    return str(s1)
+    
+    return s1
 
 
 
 # Return the number of words in Strings that end with String substring
 # You can assume there are no punctuation marks between words
 def words_ends_with_substring(s, substring):
-    pass
+    s1 = s.split()
+    j=0
+    for i in s1:
+        if i[(len(i)-len(substring)):len(i)] == substring:
+            j+=1
+        
+    return j
 
 
 # Given String s, return the number of characters between the first occurrence
 # of String substring and the final occurrence
 # You can assume that substring will appear at least twice
 def distance(s, substring):
-    pass
+#     s1 = s.split()
+#     for i in s1:
+#         if 
+#     pass
 
 
 # Return true if String s is a palindrome

@@ -29,7 +29,7 @@ if __name__ == '__main__':
     print(str_copy.lower())
     print(new_str)
 
-    # Getting a substring from a string [<stat>:<end>], <end> is NOT inclusive
+    # Getting a substring from a string [<start>:<end>], <end> is NOT inclusive
     new_substring1 = new_str[0:7]   # 'Welcome'
     new_substring2 = new_str[8:10]  # 'to
     new_substring3 = new_str[11:]   # 'Python!'
