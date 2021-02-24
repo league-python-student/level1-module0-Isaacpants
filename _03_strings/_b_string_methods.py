@@ -110,14 +110,34 @@ def words_ends_with_substring(s, substring):
 # of String substring and the final occurrence
 # You can assume that substring will appear at least twice
 def distance(s, substring):
-#     s1 = s.split()
-#     for i in s1:
-#         if 
-#     pass
+    first_index = 0
+    last_index = 0
+    first_index = s.find(substring)
+    last_index = s.rfind(substring)
+    return last_index-first_index-len(substring)
+
 
 
 # Return true if String s is a palindrome
 # palindromes are words or phrases are read the same forward as backward.
 # HINT: ignore/remove all punctuation and spaces in the String
 def palindrome(s):
-    pass
+    removed_spaces = s.replace(' ', '')
+    lower = removed_spaces.lower()
+    removed_question = lower.replace('?', '')
+    remove_comma = removed_question.replace(',', '')
+    remove_dash = remove_comma.replace('–','')
+    remove_colon = remove_dash.replace(':', '')
+    remove_period = remove_colon.replace('.','')
+    final_s = remove_period
+    final_s_list = list(final_s)
+    reverse_list = list(final_s)
+    j = 0
+    for i in final_s_list:
+        j+=1
+        reverse_list[len(final_s_list)-j] = i
+    if reverse_list == final_s_list:
+        return True
+
+
+    return False

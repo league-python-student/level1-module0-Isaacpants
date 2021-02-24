@@ -13,7 +13,7 @@ class Hangman(tk.Tk):
         self.random_word = None
 
         # 5. Make a new instance variable to hold the word being guessed
-
+        self.guessed_word = ''
         self.initialize()
 
     def initialize(self):
@@ -30,11 +30,16 @@ class Hangman(tk.Tk):
 
     def setup_new_word(self):
         # 6. Create an string of underscores that's the same length of the random word
+        length = len(self.random_word)
+        underscore_list = list()
+        for i in range(length):
+            underscore_list[i] = '_'
+        selfunderscore = ''.join(underscore_list)
 
         # 7. Set the string of underscores using entered_text.set()
-
+        entered_text.set(underscore)
         # 8. Delete 'pass'
-        pass
+
 
     def key_pressed(self, event):
         key = str(event.char)
@@ -43,6 +48,20 @@ class Hangman(tk.Tk):
         # 9. Check if the key that was pressed is within the guess string
         # You can change a string into a list by doing: my_list = list(my_string)
         # You can change a list into a string by doing: my_string = ''.join(my_list)
+        num = 0
+        if key in self.random_word:
+            for i in range(self.random_word.vount(key)):
+                num = self.random_word.find(key, num)
+                num += 1
+                w_list = list(self.underscore)
+                w_list[num - 1] = key
+                self.underscore = ''.join(w_list)
+                entered_text.set(self.underscore)
+
+
+
+
+
 
         # 10. If the guess string matches the random word,
         # Print a message/pop-up telling the user they won!
@@ -78,11 +97,12 @@ class Hangman(tk.Tk):
 if __name__ == '__main__':
     # 1. Delete 'pass' and make a new Hangman game, example
     # game = Hangman(None)
-    pass
+    game = Hangman(None)
 
     # 2. Set your game title
-
+    game.title('Hangman')
     # 3. Add a key listener to your game
     # game.bind("<Key>", game.key_pressed)
-
+    game.bind('<Key>', game.key_pressed())
     # 4. Run your game's mainloop()
+    game.mainloop()
