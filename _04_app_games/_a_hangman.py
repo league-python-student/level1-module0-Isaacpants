@@ -32,9 +32,11 @@ class Hangman(tk.Tk):
         # 6. Create an string of underscores that's the same length of the random word
         length = len(self.random_word)
         underscore_list = list()
-        for i in range(length):
-            underscore_list[i] = '_'
-        selfunderscore = ''.join(underscore_list)
+
+        # for i in range(length):
+        #    # underscore_list[i] = '_'
+        #     underscore_list.insert(i, True)
+        # selfunderscore = ''.join(underscore_list)
 
         # 7. Set the string of underscores using entered_text.set()
         entered_text.set(underscore)
