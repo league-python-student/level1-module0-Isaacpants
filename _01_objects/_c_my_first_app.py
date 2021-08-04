@@ -38,6 +38,7 @@ class MyFirstPythonApp(tk.Tk):
         # Add an image
         img = create_image('python.png', 200, 200)
         label_image = tk.Label(self, image=img)
+
         label_image.image = img
 
         # You can set the absolute pixel location using x and y
