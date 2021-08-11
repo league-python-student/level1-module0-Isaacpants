@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="96ea03be-a7ad-4329-8dde-30bf8c1bed47" name="Default Changelist" comment="calculator finished, guest book ip">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_01_objects/_b_netflix_queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/_01_objects/_b_netflix_queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_01_objects/_c_my_first_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/_01_objects/_c_my_first_app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

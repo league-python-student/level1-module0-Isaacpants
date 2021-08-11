@@ -15,6 +15,7 @@ class Movie:
             return "Don't waste your money on this horrible rubbish."
 
 
+
 class NetflixQueue:
     def __init__(self):
         self.movies = list()
@@ -49,6 +50,7 @@ if __name__ == '__main__':
     infinityWar = Movie('Infinity War',3)
     ageOfUltron = Movie('Age of Ultron', 2)
     theDarkWorld = Movie('The Dark World',1)
+
 
     # 2. Use the Movie class to get the ticket price of one of your movies.
     Movie.get_ticket_price(endgame)

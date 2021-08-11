@@ -34,7 +34,6 @@ class MyFirstPythonApp(tk.Tk):
         # You can set the location of the label relative to the size of the window
         # The scaling will be maintained if the the app window is resized
         label.place(relx=0.1, rely=0.1, relwidth=0.8, relheight=0.1)
-
         # Add an image
         img = create_image('python.png', 200, 200)
         label_image = tk.Label(self, image=img)
